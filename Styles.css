@@ -1,0 +1,73 @@
+body{background-color: white;}
+
+.btn-group1 button {
+    background-color: #171817; 
+    border: 1px solid rgb(0, 0, 0); 
+    color: white; 
+    padding: 24px 24px;
+    float: left; 
+}
+
+.btn-group2 button {
+    background-color: #f5800b; 
+    border: 1px solid rgb(0, 0, 0); 
+    color: white; 
+    padding: 24px 24px;
+    float: left; 
+}
+
+.btn-group3 button {
+    background-color: #f5260b; 
+    border: 1px solid rgb(0, 0, 0); 
+    color: white; 
+    padding: 24px 24px;
+    float: left; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-group1:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group2:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group3:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group1 button:not(:last-child) {border-right: none;}
+.btn-group2 button:not(:last-child) {border-right: none;}
+.btn-group3 button:not(:last-child) {border-right: none;}
+
+.btn-group1 button:hover {background-color: #484b48;}
+.btn-group2 button:hover {background-color: #fe9731;}
+.btn-group3 button:hover {background-color: #fe5a31;}
+
+.btn-group1 button:active {background-color: #8d8e8d;}
+.btn-group2 button:active {background-color: #ffb66d;}
+.btn-group3 button:active {background-color: #ff7b6d;}
+
+.block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -125px 0 0 -125px;
+}
+
+.search-input {
+    border: 1px solid rgb(0, 0, 0); 
+    height: 10%;
+    padding: 24px 30px;
+    box-sizing: border-box;
+}
