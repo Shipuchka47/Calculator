@@ -112,8 +112,6 @@ function ravno() {
         document.getElementById("myspan").value=String(eval(primer));
         primer = String(eval(primer));
     }
-
-    console.log(primer);
 }
 
 function Backspace() {
